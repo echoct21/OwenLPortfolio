@@ -17,9 +17,9 @@ import DigitalPainting from "./routes/ItemPages/DigitalPainting.tsx";
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-      <BrowserRouter>
+      <BrowserRouter basename={import.meta.env.BASE_URL}>
           <Routes>
-              <Route path="/" element={<App />} />
+              <Route index path="/" element={<App />} />
               <Route path={"/gamedesign"} element={<GameDesign/>} />
               <Route path={"/gamedesign/photoclue"} element={<PhotoClue/>} />
               <Route path={"/writing"} element={<Writing/>} />
