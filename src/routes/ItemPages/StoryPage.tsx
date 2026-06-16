@@ -8,10 +8,10 @@ import Footer from "../../components/Footer";
 import ButtonPageNav from "../../components/ButtonPageNav";
 import {useLocation} from "react-router-dom";
 
-const IronCrown : string = '/TheIronCrown.html'
-const ShadowedBinding : string = '/TheShadowedBinding.html'
-const MQP : string = '/WorldbuildingInLARP.pdf'
-const None : string = '/NoSelection.html'
+const IronCrown : string = '../TheIronCrown.html'
+const ShadowedBinding : string = '../TheShadowedBinding.html'
+const MQP : string = '../WorldbuildingInLARP.pdf'
+const None : string = '../NoSelection.html'
 
 function DocFrame({doc}: {doc : string}){
     switch (doc) {
