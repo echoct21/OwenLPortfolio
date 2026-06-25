@@ -1,6 +1,6 @@
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
-import { BrowserRouter, Routes, Route } from "react-router";
+import { HashRouter, Routes, Route } from "react-router";
 import './index.css';
 import App from './App.tsx';
 import GameDesign from './routes/GameDesign.tsx';
@@ -17,7 +17,7 @@ import DigitalPainting from "./routes/ItemPages/DigitalPainting.tsx";
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-      <BrowserRouter basename={import.meta.env.BASE_URL}>
+      <HashRouter /*basename={import.meta.env.BASE_URL}*/>
           <Routes>
               <Route index path="/" element={<App />} />
               <Route path={"/gamedesign"} element={<GameDesign/>} />
@@ -31,6 +31,6 @@ createRoot(document.getElementById('root')!).render(
               <Route path={"/visualart/drawing"} element={<Drawing/>}/>
               <Route path={"/visualart/minecraft"} element={<MinecraftBuilds/>}/>
           </Routes>
-      </BrowserRouter>
+      </HashRouter>
   </StrictMode>,
 )
