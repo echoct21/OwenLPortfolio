@@ -49,7 +49,7 @@ export default function Writing () {
             <div className={"page_content"}>
                 <MenuBar></MenuBar>
                 <ParagraphText title={"Writing Projects"} text={"This is a set of my best writing work." +
-                    " It includes a short story, a Dungeons and Dragons adventure, and a few pieces written for" +
+                    " I've included a short story, a Dungeons and Dragons adventure, and a few pieces written for" +
                     " school. One of those is a fake Moby Dick chapter written to mimic Herman Melville's style" +
                     " and themes. Below are design documents for LARP games I have/plan to run."}></ParagraphText>
 

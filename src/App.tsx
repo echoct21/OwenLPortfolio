@@ -17,11 +17,12 @@ function App() {
           <ImageLeft imgSrc={Island} alt={"Concept art of submarine construction on an island."} title={"About Me"}
                      text={"Hi! I'm a game designer and writer from California. I like making short narrative games " +
                          "and text based adventures, along with 2d games. I also work with escape room and LARP puzzle " +
-                         "design and mechanics, trying to run short games and experiment with new game styles."
-                     }></ImageLeft>
+                         "design and mechanics, trying to run short games and experiment with new game styles."}
+                     target={""}
+          ></ImageLeft>
           <ImageRight imgSrc={Castle} alt={"An image of the game."} title={"Current Project"} text={"Currently I'm working on a Minecraft short" +
-              "game. It is based on early Minecraft adventure maps and uses both redstone mechanics and commmand blocks" +
-              " to create a fully playable game."}></ImageRight>
+              " game. It is based on early Minecraft adventure maps and uses both redstone mechanics and commmand blocks" +
+              " to create a fully playable game."} target={""}></ImageRight>
         </div>
         <Footer imgSrc={Name} alt={"Name Logo"}></Footer>
       </div>

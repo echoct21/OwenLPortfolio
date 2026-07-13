@@ -32,7 +32,7 @@ export default function DoubleImage ({
                     <Link className={"link_style"} to={link1}>
                         <div className={"text_title"}>{title1}</div>
                     </Link>
-                    <Link className={"link_style"} to={link1}>
+                    <Link className={"link_style"} to={link1} onClick={() => {window.scrollTo(0, 0);}}>
                         <img src={img1Src} alt={alt1} className={"double_image"}/>
                     </Link>
                 </div>
@@ -40,7 +40,7 @@ export default function DoubleImage ({
                     <Link className={"link_style"} to={link2}>
                         <div className={"text_title"}>{title2}</div>
                     </Link>
-                    <Link className={"link_style"} to={link2}>
+                    <Link className={"link_style"} to={link2} onClick={() => {window.scrollTo(0, 0);}}>
                         <img src={img2Src} alt={alt2} className={"double_image"}/>
                     </Link>
                 </div>

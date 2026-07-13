@@ -2,7 +2,7 @@ import "../../App.css";
 import {useEffect, useLayoutEffect} from "react";
 import {useState} from "react";
 import {Document, Page, pdfjs} from "react-pdf";
-import PaintingPDF from "../../PDFs/Owen_Lacey_DigitalPainting_Portfolio_2022.pdf"
+import PaintingPDF from "../../PDFs/OwenL_DigitalPaintingPortfolio.pdf"
 import ConceptPDF from "../../PDFs/Owen_Lacey_ConceptArt_Portfolio_Fall2024.pdf"
 import TitleBar from "../../components/TitleBar";
 import Name from "../../assets/Name.png";
@@ -13,6 +13,7 @@ import MenuBar from "../../components/MenuBar";
 
 import "react-pdf/dist/Page/AnnotationLayer.css";
 import "react-pdf/dist/Page/TextLayer.css";
+import ParagraphText from "../../components/ParagraphText.tsx";
 
 interface pnumA {
     pageNumA : number;
@@ -104,6 +105,9 @@ export default function DigitalPainting () {
                 <div className={"page_object"}>
                     <ButtonGeneric label={"Back"} dest={"/visualart"}></ButtonGeneric>
                 </div>
+                <ParagraphText title={"Digital Painting Class"} text={"This is my portfolio from a digital painting class " +
+                    "where I went through the process of learning to paint in photoshop, starting from value studies " +
+                    "and moving to color."}></ParagraphText>
                 <div className={"page_object"}>
                     <Document file={PaintingPDF} onLoadError={console.error}
                               onLoadSuccess={onDocumentLoadSuccessA}>
@@ -136,6 +140,10 @@ export default function DigitalPainting () {
                 </div>
                 <Spacer count={2}></Spacer>
                 {/*Start of PDF B - Concept Art*/}
+                <ParagraphText title={"Concept Art"} text={"This is a portfolio from a concept art class where I made concept art" +
+                    " for a game pitch. The game I pitched was an underwater mystery/survival game called Ars Aquae, and the" +
+                    " concept art is of the characters, landside dock, and a couple of underwater installations. Each piece starts with" +
+                    " a sketch, and moves to a color painting."}></ParagraphText>
                 <div className={"page_object"}>
                     <Document className={'pdf_display'} file={ConceptPDF} onLoadError={console.error}
                               onLoadSuccess={onDocumentLoadSuccessB}>

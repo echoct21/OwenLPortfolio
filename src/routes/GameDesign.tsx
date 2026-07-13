@@ -27,9 +27,12 @@ export default function GameDesign () {
                 <ImageLeft imgSrc={ShadowDepth} alt={"The title screen of Shadowed Depths"} title={"Shadowed Depths"}
                            text={"A short dungeon crawler game made in Perlenspiel, with a 16x16 \"bead\" grid. The player " +
                                "cannot see far beyond their own location, and must evade enemies in the dark and navigate " +
-                               "a twisting dungeon to reach the treasure at the end.\n" +
-                               "The game was designed with certain restrictions imposed: the game cannot have any color and it must " +
-                               "be 16x16 \"beads\" in size."} link={"https://echoct21.github.io/GitHub/2900/A39/game.html"} ></ImageLeft>
+                               "a twisting dungeon to reach the treasure at the end. The game was designed with certain " +
+                               "restrictions imposed: the game cannot have any color and it must " +
+                               "be 16x16 \"beads\" in size." +
+                               "The game will let you see each level fully lit before starting to move. Move with the arrow keys" +
+                               " and attack any adjacent enemies with space. If you touch an enemy you will lose one life. Reach the" +
+                               " light gray exit spaces to move to the next level."} link={"https://echoct21.github.io/GitHub/2900/A39/game.html"} ></ImageLeft>
                 <ImageLeft imgSrc={Alien} alt={"Alien Adventure Logo"} title={"Alien Adventure"} text={"A 2D adventure" +
                     " game made in the game engine Dragonfly. It is a simple adventure game where you explore a small " +
                     "map to find a golden egg and return to your ship. Along the way you have to defeat or escape various alien creatures " +
