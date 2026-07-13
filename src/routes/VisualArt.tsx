@@ -21,7 +21,11 @@ export default function VisualArt () {
                 <MenuBar></MenuBar>
                 <Carousel></Carousel>
                 <Spacer count={1}></Spacer>
-                <ParagraphText title={"Full Portfolios"} text={"Below are the full portfolios of the various" +
+                <ParagraphText title={"Full Portfolios"} text={"While visual art wasn't something I studied directly, it" +
+                    " has always been an interest of mine. Before college I would fill a sketchbook each year in school" +
+                    " with drawings during class or free time. I have also been building in Minecraft since I was 10, and" +
+                    " spent years learning how to work with the game to create art with the restricting block selection. " +
+                    " Below are the full portfolios of the various" +
                     " types of work I've done. Digital Painting and Minecraft are the two largest collections, but there" +
                     " are other works as well such as photo editing and hand drawn art."}></ParagraphText>
                 <DoubleImage img1Src={BB8} img2Src={Windmills} alt1={"A digital drawing of BB8"}

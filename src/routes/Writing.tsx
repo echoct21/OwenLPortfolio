@@ -48,9 +48,12 @@ export default function Writing () {
             <TitleBar  logo={Name}></TitleBar>
             <div className={"page_content"}>
                 <MenuBar></MenuBar>
-                <ParagraphText title={"Writing Projects"} text={"This is a set of my best writing work." +
-                    " I've included a short story, a Dungeons and Dragons adventure, and a few pieces written for" +
-                    " school. One of those is a fake Moby Dick chapter written to mimic Herman Melville's style" +
+                <ParagraphText title={"Writing Projects"} text={"I have always enjoyed telling stories and started taking" +
+                    " classes to learn how to write in high school. I've written short stories in various genres, but mostly" +
+                    " I focused on writing stories and characters for games I was making. Below is a set of what I consider" +
+                    " my best writing work." +
+                    " I've included a few short stories, a Dungeons and Dragons adventure, and a few pieces written for" +
+                    " school projects. One of those is a fake Moby Dick chapter written to mimic Herman Melville's style" +
                     " and themes. Below are design documents for LARP games I have/plan to run."}></ParagraphText>
 
                 <DoubleImagePage img1Src={DnD} img2Src={MobyDick} alt1={"The first page of a DnD adventure"}
