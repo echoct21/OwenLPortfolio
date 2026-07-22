@@ -21,7 +21,8 @@ function App() {
                          "design and mechanics, trying to run short games and experiment with new game styles. I have a " +
                          "BA in Game Design and a BS in Professional Writing from Worcester Polytechnic Institute. I've " +
                          "been playing games since I was 10 years old and have always been experimenting with designing " +
-                         "my own levels and gameplay."}
+                         "my own levels and gameplay. I have made small games and experiences for my family and friends in " +
+                         "Minecraft since I've been playing."}
                      target={""}
           ></ImageLeft>
             <ParagraphText title={"Favorite Projects"} text={"My favorite projects have been my game design work in" +

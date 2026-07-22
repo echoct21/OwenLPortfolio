@@ -26,6 +26,10 @@ export default function GameDesign () {
                     " This was an enjoyable design challenge to make a game using a non-traditional input device. I chose" +
                     " a camera because I have always enjoyed photography and trying to find a pretty scene from anywhere" +
                     " you are."} link={"photoclue"} target={""}></ImageLeft>
+                <ImageLeft imgSrc="" alt={"Draft sketch of the game board"} title={"Forbidden Fae Wilds"}
+                text={"A board game designed in the style of Forbidden Desert and Forbidden Island where" +
+                    " you must escape the Fae Wilds. It is designed to keep the game board constantly moving" +
+                    " and hidden so you must rely on memory to know where your goal is."} link={""} target={""}></ImageLeft>
                 <ImageLeft imgSrc={ShadowDepth} alt={"The title screen of Shadowed Depths"} title={"Shadowed Depths"}
                            text={"A short dungeon crawler game made in Perlenspiel, with a 16x16 \"bead\" grid. The player " +
                                "cannot see far beyond their own location, and must evade enemies in the dark and navigate " +
@@ -37,6 +41,8 @@ export default function GameDesign () {
                                " light gray exit spaces to move to the next level." +
                                " This was my first real programmed game project and I loved how the limitations forced me" +
                                " to reconsider what was needed to make a complete game."} link={"https://echoct21.github.io/GitHub/2900/A39/game.html"} ></ImageLeft>
+                <ImageLeft imgSrc={""} alt={"A fishing boat sailing between islands"} title={"Depths Between"} text={"A board game inspired by the video" +
+                    " game Dredge and designed after Settlers of Catan."} link={""} target={""}></ImageLeft>
                 <ImageLeft imgSrc={Alien} alt={"Alien Adventure Logo"} title={"Alien Adventure"} text={"A 2D adventure" +
                     " game made in the game engine Dragonfly. It is a simple adventure game where you explore a small " +
                     "map to find a golden egg and return to your ship. Along the way you have to defeat or escape various alien creatures " +
